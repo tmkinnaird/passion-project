@@ -1,13 +1,39 @@
-* {
-  background-color: aquamarine;
-}
-
-html {
+/* html {
   background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/clx090118countryinthecity-03-1550686345.jpg?crop=0.769xw:1.00xh;0.159xw,0&resize=640:*")
     no-repeat center center fixed;
-}
+} */
 .App {
   text-align: center;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  background-color: blanchedalmond;
+  height: 75px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.home-container {
+  margin-top: 100px;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-wordmark {
+  float: left;
+  padding-right: 575px;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 .App-logo {
