@@ -2,6 +2,10 @@
   background-color: aquamarine;
 }
 
+html {
+  background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/clx090118countryinthecity-03-1550686345.jpg?crop=0.769xw:1.00xh;0.159xw,0&resize=640:*")
+    no-repeat center center fixed;
+}
 .App {
   text-align: center;
 }
